@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore the TechConnect gallery featuring Computer Applications Department events, workshops, competitions, campus activities and achievements.">
+
+    <meta property="og:title" content="TechConnect Gallery">
+    <meta property="og:description" content="Explore memorable moments from the Computer Applications Department.">
+
+    <title>TechConnect - Gallery | Computer Applications Department</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">TechConnect</span>
+                    </a>
+                </div>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="events.html" class="nav-link">Events</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link active">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    aria-label="Toggle dark mode"
+                >
+                    🌙
+                </button>
+
+                <div
+                    class="hamburger"
+                    id="hamburger"
+                    aria-label="Open navigation menu"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- GALLERY HERO -->
+        <section class="page-hero">
+
+            <div class="page-hero-content">
+
+                <span class="page-tag">
+                    TECHCONNECT GALLERY
+                </span>
+
+                <h1>
+                    Moments. Memories.
+                    <span>Achievements.</span>
+                </h1>
+
+                <p>
+                    Explore memorable moments from workshops, competitions,
+                    seminars, cultural programs and student activities
+                    organized by the Computer Applications Department.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY SECTION -->
+        <section class="gallery-section">
+
+            <div class="gallery-container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        Our Moments
+                    </span>
+
+                    <h2 class="section-title">
+                        Explore the Gallery
+                    </h2>
+
+                    <p class="section-description">
+                        Browse photographs from department events,
+                        achievements and student activities.
+                    </p>
+
+                </div>
+
+
+                <!-- GALLERY FILTER -->
+                <div class="gallery-filter">
+
+                    <button class="gallery-filter-btn active" data-gallery-filter="all">
+                        All
+                    </button>
+
+                    <button class="gallery-filter-btn" data-gallery-filter="events">
+                        Events
+                    </button>
+
+                    <button class="gallery-filter-btn" data-gallery-filter="workshops">
+                        Workshops
+                    </button>
+
+                    <button class="gallery-filter-btn" data-gallery-filter="competitions">
+                        Competitions
+                    </button>
+
+                    <button class="gallery-filter-btn" data-gallery-filter="cultural">
+                        Cultural
+                    </button>
+
+                    <button class="gallery-filter-btn" data-gallery-filter="achievements">
+                        Achievements
+                    </button>
+
+                </div>
+
+
+                <!-- GALLERY GRID -->
+                <div class="gallery-grid">
+
+                    <div class="gallery-item gallery-large"
+                         data-gallery-category="events"
+                         data-title="TechConnect Annual Event">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80"
+                            alt="Students attending a technology department event"
+                            loading="lazy"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>Events</span>
+                            <h3>TechConnect Annual Event</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item"
+                         data-gallery-category="workshops"
+                         data-title="Programming Workshop">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
+                            alt="Students participating in a programming workshop"
+                            loading="lazy"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>Workshop</span>
+                            <h3>Programming Workshop</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item"
+                         data-gallery-category="competitions"
+                         data-title="Coding Competition">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80"
+                            alt="Students collaborating during a coding competition"
+                            loading="lazy"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>Competition</span>
+                            <h3>Coding Competition</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item"
+                         data-gallery-category="events"
+                         data-title="Technical Seminar">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1200&q=80"
+                            alt="Technical seminar with students and speakers"
+                            loading="lazy"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>Events</span>
+                            <h3>Technical Seminar</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item gallery-tall"
+                         data-gallery-category="achievements"
+                         data-title="Student Achievement">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1200&q=80"
+                            alt="Students celebrating academic achievement"
+                            loading="lazy"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>Achievement</span>
+                            <h3>Student Achievement</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item"
+                         data-gallery-category="workshops"
+                         data-title="AI Learning Session">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=80"
+                            alt="Students learning during a technology workshop"
+                            loading="lazy"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>Workshop</span>
+                            <h3>AI Learning Session</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item"
+                         data-gallery-category="cultural"
+                         data-title="Cultural Celebration">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80"
+                            alt="Students participating in a cultural celebration"
+                            loading="lazy"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>Cultural</span>
+                            <h3>Cultural Celebration</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item"
+                         data-gallery-category="competitions"
+                         data-title="Hackathon Challenge">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+                            alt="Student team working together during a hackathon"
+                            loading="lazy"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>Competition</span>
+                            <h3>Hackathon Challenge</h3>
+                        </div>
+
+                    </div>
+
+
+                    <div class="gallery-item gallery-large"
+                         data-gallery-category="achievements"
+                         data-title="Project Showcase">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
+                            alt="Students presenting their project work"
+                            loading="lazy"
+                        >
+
+                        <div class="gallery-overlay">
+                            <span>Achievement</span>
+                            <h3>Project Showcase</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- GALLERY CTA -->
+        <section class="gallery-highlight-section">
+
+            <div class="gallery-highlight-container">
+
+                <div>
+
+                    <span class="section-label">
+                        Student Experience
+                    </span>
+
+                    <h2>
+                        More Than Just Classrooms
+                    </h2>
+
+                    <p>
+                        Every event, workshop and activity gives students
+                        an opportunity to learn, collaborate, create and
+                        build lasting memories.
+                    </p>
+
+                </div>
+
+                <a href="events.html" class="btn btn-primary">
+                    Explore Our Events
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta-section">
+
+            <div class="cta-content">
+
+                <h2>
+                    Create Your TechConnect Story
+                </h2>
+
+                <p>
+                    Join our community and become part of future events,
+                    activities and achievements.
+                </p>
+
+                <a href="contact.html" class="btn btn-large">
+                    Join / Contact Us
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- LIGHTBOX -->
+    <div
+        class="lightbox"
+        id="galleryLightbox"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Gallery image preview"
+    >
+
+        <button
+            class="lightbox-close"
+            id="lightboxClose"
+            aria-label="Close image preview"
+        >
+            ×
+        </button>
+
+        <button
+            class="lightbox-nav lightbox-prev"
+            id="lightboxPrev"
+            aria-label="Previous image"
+        >
+            ‹
+        </button>
+
+        <div class="lightbox-content">
+
+            <img
+                id="lightboxImage"
+                src=""
+                alt=""
+            >
+
+            <h3 id="lightboxTitle"></h3>
+
+        </div>
+
+        <button
+            class="lightbox-nav lightbox-next"
+            id="lightboxNext"
+            aria-label="Next image"
+        >
+            ›
+        </button>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div class="footer-section">
+
+                <h3>TechConnect</h3>
+
+                <p>
+                    Computer Applications Department – Fostering innovation,
+                    learning and excellence.
+                </p>
+
+            </div>
+
+            <div class="footer-section">
+
+                <h4>Quick Links</h4>
+
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-section">
+
+                <h4>Follow Us</h4>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">𝕏</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 TechConnect. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+
+    <button
+        class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html><script src="js/main.js"></script>
